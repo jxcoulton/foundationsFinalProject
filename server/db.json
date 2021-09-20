@@ -1,0 +1,29 @@
+[
+	{
+		"id": 1,
+		"name": ["Burger"],
+		"ingredients": ["Buns </br> Hamburger Patty"],
+		"instructions": [
+			"1.start with 2 halves of a bun </br> 2.cook a hamburger to you liking </br> 3.place the burger patty on the buns </br> 4.add any condiments you might like and you Burger is ready to devour!"
+		],
+		"imageURL": "https://images.unsplash.com/photo-1561758033-7e924f619b47?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	},
+	{
+		"id": 2,
+		"name": ["Peanut Butter & Jelly Sandwich"],
+		"ingredients": ["Sliced Bread </br> Peanut Butter </br> Jelly"],
+		"instructions": [
+			"1.start with 2 peices of bread </br> 2.apply peanut butter to one piece </br> 3.apply jelly to the other piece </br> 4.put the two pieces together and enjoy your delicious PBJ!"
+		],
+		"imageURL": "https://www.readersdigest.ca/wp-content/uploads/sites/14/2017/04/peanut-butter-and-jelly-facts.jpg"
+	},
+	{
+		"id": 3,
+		"name": ["Cereal"],
+		"ingredients": ["Cereal </br> Milk"],
+		"instructions": [
+			"1.start by filling a bowl with cereal </br> 2.then fill the bowl with milk to your liking and its time to eat!"
+		],
+		"imageURL": "https://images.unsplash.com/photo-1614961234274-f204d01c115e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+	}
+]

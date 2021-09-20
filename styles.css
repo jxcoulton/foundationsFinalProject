@@ -1,0 +1,59 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#logo {
+	display: block;
+	max-width: 18vw;
+	max-height: 22vh;
+	width: auto;
+	height: auto;
+}
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.recipes-container {
+	size: auto;
+}
+
+#textContent {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 25vw;
+	height: 60vh;
+	padding: 10px;
+	border-style: solid;
+	border-color: rgb(204, 69, 57);
+	border-radius: 10%;
+	overflow: auto;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+.name {
+	font-size: 2rem;
+}
+
+.ingredients {
+	font-size: 1rem;
+}
+
+.instructions {
+	font-size: 1rem;
+}
+
+button {
+	border-radius: 20%;
+}

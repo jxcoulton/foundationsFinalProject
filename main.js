@@ -34,18 +34,16 @@ function displayRecipes(arr) {
 
 function createRecipeCard(recipe) {
 	const recipeCard = document.createElement("div");
-	const breakTag = document.createElement("br");
 	recipeCard.classList.add("recipe-card");
 	printSection.innerHTML = "";
 
-	recipeCard.innerHTML = `<div id="textContent" style="background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(${recipe.imageURL})"><h2 class="name">${recipe.name}</h2>
+	recipeCard.innerHTML = `<div id="textContent" style="background-image: url(${recipe.imageURL})"></div><div class="importedText"><h2 class="name">${recipe.name}</h2>
     <h3>here is what you will need</h3>
     <p class="ingredients">${recipe.ingredients}</p>
     <h3>lets get started</h3>
     <p class="instructions">${recipe.instructions}</p></div>`;
 
 	recipeContainer.appendChild(recipeCard);
-	recipeContainer.appendChild(breakTag);
 }
 
 function createPrintButton() {
@@ -69,3 +67,5 @@ function printInfo() {
 // printBtn.addEventListener("click", printInfo);
 getRandomBtn.addEventListener("click", getRandomRecipe);
 getAllRecipesBtn.addEventListener("click", getAllRecipes);
+
+getAllRecipes();

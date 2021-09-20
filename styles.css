@@ -12,16 +12,13 @@ body {
 	width: auto;
 	height: auto;
 }
-section {
+
+#recipes-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-between;
-}
-
-.recipes-container {
-	size: auto;
+	justify-content: center;
+	width: 100%;
 }
 
 #textContent {
@@ -29,31 +26,58 @@ section {
 	align-items: center;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 25vw;
-	height: 60vh;
+	height: 300px;
 	padding: 10px;
-	border-style: solid;
-	border-color: rgb(204, 69, 57);
-	border-radius: 10%;
-	overflow: auto;
+	background-size: cover;
+	border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 h3 {
-	font-size: 1rem;
+	font-size: 20px;
 }
 
 .name {
-	font-size: 2rem;
+	font-size: 30px;
 }
 
 .ingredients {
-	font-size: 1rem;
+	font-size: 18px;
 }
 
 .instructions {
-	font-size: 1rem;
+	font-size: 18px;
+}
+
+#buttonDiv {
+	display: flex;
+	margin: 20px 0;
+}
+
+button + button {
+	margin-left: 15px;
 }
 
 button {
-	border-radius: 20%;
+	border-radius: 5px;
+	padding: 15px 40px 15px 40px;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: rgb(204, 69, 57);
+	border: 0;
+	color: white;
+	margin: 20px 0;
+}
+
+.recipe-card {
+	max-width: 400px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.importedText {
+	text-align: center;
+	padding: 20px;
+}
+
+.recipe-card + .recipe-card {
+	margin-left: 20px;
 }
